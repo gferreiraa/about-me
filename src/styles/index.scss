@@ -1,0 +1,94 @@
+@import '~bulma/bulma';
+@import '../assets/fonts/hover-min.css';
+
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('../assets/fonts/big_john-webfont.woff2') format('woff2'),
+         url('../assets/fonts/big_john-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'slim_joeregular';
+    src: url('../assets/fonts/slim_joe-webfont.woff2') format('woff2'),
+         url('../assets/fonts/slim_joe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto!important;
+  }
+
+/* About section */
+.title__name {
+    font-family: 'slim_joeregular';
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 7vh;
+}
+
+.subtitle__name {
+    font-family: 'big_johnregular';
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+.paragraph__about {
+    color: #fff;
+    font-weight: 100;
+}
+
+/* Footer section */
+.footer__note {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 12vh;
+}
+
+.heart__icon {
+    color: red;
+    font-weight: 100;
+}
+
+/* Links section */
+.social-list{
+    margin-top: 20vh;
+}
+
+.social-list a {    
+    color: #fff;
+    display: block;
+    padding: 0.5em 0.75em;
+}
+
+.list__name {
+    display: block;
+    font-size: 1rem;
+}
+
+.error__page {
+    margin-top: 40vh;
+}
+
+.error__page--title {
+    font-family: 'big_johnregular';
+}
+
+.link_cv {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
