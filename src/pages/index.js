@@ -24,10 +24,9 @@ const IndexPage = () => (
                   <h1 className="title title__name is-size-1-mobile">GETULIO</h1>
                   <h2 className="subtitle subtitle__name is-size-1-mobile">RAFAEL</h2>
                   <p className="paragraph__about">
-                    I'm a very motivated Front-end developer who likes to contribute<br/> to the group's
-                    development. I believe we can improve every day<br/>by working and learning
-                    together. I'm always prepared for new challenges.<br/><br/>
-                    <b>I try to be just 1% better every day!</b>
+                  I have been working with interface development since 2007, specializing in UI and <br/><b>Front End development.</b> I am a very active professional and passionate <br/> about <b>Javascript, ReactJS and SVG.</b>  I always try to be focus on my results,<br/> being a very disciplined and ambitious professional, <b>trying to be 1% better every DAY!</b><br/><br/>
+                  I like to contribute to the community and believe we can grow, work and learn together.<br/> I am always prepared for new challenges, and <b>open to new job opportunities.</b>
+  
                   </p>
                 </div>
                   <div className="column">
