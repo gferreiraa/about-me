@@ -10,7 +10,7 @@ import stackoverflowIcon from '../images/stack-overflow-brands.svg';
 import mediumIcon from '../images/medium-m-brands.svg';
 import twitterIcon from '../images/twitter-brands.svg';
 import reddit from '../images/reddit-alien-brands.svg';
-
+import codepen from '../images/codepen-brands.svg'
 
 const IndexPage = () => (
     <Layout className="layout__body">
@@ -36,6 +36,7 @@ const IndexPage = () => (
                       <li className="hvr-bob list__name"><a href="https://pt.stackoverflow.com/users/134567/getulio-rafael-ferreira" target="_blank"><img className="icon is-small icon__img" src={stackoverflowIcon}/>Stackoverflow</a></li>
                       <li className="hvr-bob list__name"><a href="https://medium.com/@getliorafaelferreira" target="_blank"><img className="icon is-small icon__img" src={mediumIcon}/>Medium</a></li>
                       <li className="hvr-bob list__name"><a href="https://twitter.com/padawanmirim" target="_blank"><img className="icon is-small icon__img" src={twitterIcon}/>Twitter</a></li>
+                      <li className="hvr-bob list__name"><a href="https://codepen.io/gferreiraa/" target="_blank"><img className="icon is-small icon__img" src={codepen}/>CodePen</a></li>
                       <li className="hvr-bob list__name"><a href="https://www.reddit.com/user/gferreiraa" target="_blank"><img className="icon is-small icon__img" src={reddit}/>Reddit</a></li>
                     </ul>
                   </div>
@@ -51,7 +52,7 @@ const IndexPage = () => (
               <p className="footer__note"><b>© 2019</b> - Built with <span className="heart__icon">❤</span> Gatsby, GitHub Pages and ReactJS</p>
             </div>
             <div className="column footer__cv">
-              <p className="footer__note"><b><a className="link_cv hvr-bob" href="https://drive.google.com/file/d/0B04ZkygoVw1nblVjbmVsbmsxRGItUUI1TmVUdnFqbmVBV1RN/view" download="CV-Getúlio-Rafael-Ferreira.pdf" target="_blank"><img className="icon is-small icon__img" src={donwloadIcon}/>Download CV Here</a></b></p>
+              <p className="footer__note"><b><a className="link_cv hvr-bob" href="https://drive.google.com/file/d/1PtuiURwdr4WL6xUPlqK8FtyrszqcMZ-p/view?usp=sharing" target="_blank"><img className="icon is-small icon__img" src={donwloadIcon}/>Download CV Here</a></b></p>
             </div>
           </div>
         </div>
